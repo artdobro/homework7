@@ -17,9 +17,9 @@ html{
     box-sizing: inherit;
   }
 body {
-    color: var(--primary-text-color);
+    color: var(--third-color);
     background-color: #ffffff;
-    font-family: roboto, sans-serif;
+    font-family: 'Roboto';
   }
   ul{
     list-style: none;
@@ -48,13 +48,13 @@ body {
   /*logo*/
   .logo {
     color: #000000;
-
-    font-family: Raleway, sans-serif;
-    font-style: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 3%;
     text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+    letter-spacing: 0.03em;
+    line-height: 31px;
+    font-size: 26px;
   }
   
   span {
@@ -91,7 +91,7 @@ body {
     padding-bottom: 21px; 
 
     color: var(--first-color);
-  
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -104,7 +104,7 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     color: #000000;
-  
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -131,7 +131,7 @@ body {
   
   .contacts-nav a {
     color: var(--third-color);
-  
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -406,7 +406,7 @@ body {
     display: flex;
     justify-content: center;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .filter li:not(:last-child){
     margin-right: 8px;
@@ -490,6 +490,7 @@ color: var(--sixth-color);
   .examples-link{
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
+    margin-top: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
   }
