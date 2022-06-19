@@ -12,19 +12,21 @@
 
     <body>
         <!-- Шапка сторінки -->
-            <header>
-                <div class="container">
-                    <nav>
-                        <ul class="navig"> 
-                            <li><a class="logo" href="./index.html"><span class="logo-span">Web</span>Studio</a></li> 
-                            <li><a class="index" href="./index.html">Студія</a></li>
-                            <li><a class="nav" href="./portfolio.html" target="_self">Портфоліо</a> </li>
-                            <li><a class="nav" href="">Контакти</a></li>
-                            <li><a class="cont" href="mailto:artem.dobrovolsky04@gmail.com">artem.dobrovolsky04@gmail.com</a></li>
-                            <li><a class="contakts" href="tel:+380978761505">+38 097 876 15 05</a></li>
-                        </ul>
-                    </nav>
-                </div>
+        <header>
+            <div class="header-nav container">
+                <a class="logo" href="./"><span>Web</span>Studio</a>
+                <nav>             
+                <ul class="nav-list">               
+                    <li class="list-item"><a class="link link-current" href="./">Студія</a></li>
+                    <li class="list-item"><a class="link" href="./portfolio.html" target="_self" rel="noopener noreferer">Портфоліо</a></li>
+                    <li class="list-item"><a class="link" href="">Контакти</a></li>
+                </ul> 
+                </nav>
+                <ul class="contacts-nav">
+                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
             </header>
     
        <div class="container">
@@ -42,7 +44,7 @@
                 <section>
                     <div class="container">
                         <h2 class="non-vision">Особливості</h2>
-                        <ul class="navig">
+                        <ul>
                             <li>
                                 <h3 class="min-title">Увага до деталей</h3>
                                 <p class="tex">Lorem ipsum dolor sit am,
@@ -72,7 +74,7 @@
             
                 </section>
                 <!-- Cекція чим ми займаємось -->
-                <section>
+                <section class="secta">
                     <div class="container">
                         <h2 class="title">Чим ми займаємось</h2>
                         <ul class="navig">
@@ -87,22 +89,26 @@
                 <section>
                     <div class="container">
                         <h2 class="title">Наша команда</h2>
-                        <ul class="navig">
-                            <li class="team"><img class="img2" src="./img/igor.jpg" width="300" alt="ИИИИИИГОРЬ">
-                                <p class="i-min-title">Ігор Дем'яненко</p>
-                                <p class="i-tex">Product Designer</p>
+                        <ul class="nt">
+                            <li class="team">
+                                <img class="img2" src="./img/igor.jpg" width="300" alt="ИИИИИИГОРЬ">
+                                <p class="name">Ігор Дем'яненко</p>
+                                <p class="pos">Product Designer</p>
                             </li>
-                            <li class="team"><img class="img2" src="./img/olga.jpg" width="300" alt="ОленьКа">
-                                <p class="o-min-title">Ольга Репіна</p>
-                                <p class="o-tex">Frontend Developer</p>
+                            <li class="team">
+                                <img class="img2" src="./img/olga.jpg" width="300" alt="ОленьКа">
+                                <p class="name">Ольга Репіна</p>
+                                <p class="pos">Frontend Developer</p>
                             </li>
-                            <li class="team"><img class="img2" src="./img/kolya.jpg" width="300" alt="Николай">
-                                <p class="n-min-title">Микола Тарасов</p>
-                                <p class="n-tex">Marketing</p>
+                            <li class="team">
+                                <img class="img2" src="./img/kolya.jpg" width="300" alt="Николай">
+                                <p class="name">Микола Тарасов</p>
+                                <p class="pos">Marketing</p>
                             </li>
-                            <li class="team"><img class="img2" src="./img/misha.jpg" width="300" alt="Мыша">
-                                <p class="m-min-title">Михайло Єрмаков</p>
-                                <p class="m-tex">Ul Designer</p>
+                            <li class="team">
+                                <img class="img2" src="./img/misha.jpg" width="300" alt="Мыша">
+                                <p class="name">Михайло Єрмаков</p>
+                                <p class="pos">Ul Designer</p>
                             </li>
                         </ul>
                     </div>
